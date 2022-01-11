@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function ListComponent({ content, remove }) {
+function ListComponent({ content, remove, onPriorityChange }) {
    return (
       <div>
          <ul>
@@ -10,6 +10,13 @@ function ListComponent({ content, remove }) {
                      <li>{item.toDo}</li>
                      <input type="checkbox"></input>
                      <button onClick={remove}>DELETE</button>
+                     <select onClick={onPriorityChange}>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                     </select>
                   </div>
                );
             })}

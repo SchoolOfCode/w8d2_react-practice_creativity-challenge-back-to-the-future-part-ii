@@ -34,7 +34,11 @@
 #### V2 - Priorities:
 
 -  priorities
+
    -  reorder based on priority
    -  sort/only display certain priorities
    -  color-code
    -  separate priority lists
+
+-  add priority input button to each task
+   -create a drop down menu giving choice of 1-5.

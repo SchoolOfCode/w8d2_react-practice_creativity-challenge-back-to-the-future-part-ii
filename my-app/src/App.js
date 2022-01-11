@@ -11,6 +11,8 @@ function App() {
 
    const [id, setID] = useState(0);
 
+   const [priority, setPriority] = useState("1");
+
    function add(text) {
       setID(id + 1);
       const newObject = {
@@ -27,11 +29,20 @@ function App() {
       setToDos([...toDos.slice(0, index), ...toDos.slice(index + 1)]);
    }
 
+   function addPriorityChange(event) {
+      console.log(event);
+      setPriority(event.target.value);
+   }
+
    return (
       <div className="App">
          <h1>To do List</h1>
          <Input add={add} />
-         <ListComponent content={toDos} remove={remove} />
+         <ListComponent
+            content={toDos}
+            remove={remove}
+            onPriorityChange={addPriorityChange}
+         />
       </div>
    );
 }
