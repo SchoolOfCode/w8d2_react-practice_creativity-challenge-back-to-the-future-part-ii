@@ -4,7 +4,7 @@
 
 ### IDEAS:
 
--  add prioritiesgit 
+-  add priorities
 -  sort based on priorities / only show certain priorities
 -  color-code priorities
 -  different lists
@@ -20,21 +20,21 @@
 -  subtasks
 -  sound when adding to list / on completion
 
-### ACTUAL PLAN- MVP:
+### ACTUAL PLAN:
 
 -  wireframe
 
 #### MVP:
 
-* display this on frontend
+-  display this on frontend
 
-* adding items to list
-* delete items to list
+-  adding items to list
+-  delete items to list
 
 #### V2 - Priorities:
-* priorities
-    * reorder based on priority 
-    * sort/only display certain priorities
-    * color-code
-    * separate priority lists
 
+-  priorities
+   -  reorder based on priority
+   -  sort/only display certain priorities
+   -  color-code
+   -  separate priority lists
